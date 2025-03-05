@@ -276,34 +276,28 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-![Screenshot from 2025-03-03 22-54-40](https://github.com/user-attachments/assets/28307b51-7c1c-49cd-bd67-daaa81fb36e0)
- 
+![Screenshot from 2025-03-05 22-31-15](https://github.com/user-attachments/assets/e22fd9fc-a249-427a-8192-157d0fef8abd)
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-![Screenshot from 2025-03-03 22-56-51](https://github.com/user-attachments/assets/aca018a8-c5a6-4df2-8c9d-7c25bfca80c3)
-
+![Screenshot from 2025-03-05 22-32-46](https://github.com/user-attachments/assets/669ac3c1-03a4-4eb9-83b8-c139b73809b6)
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![Screenshot from 2025-03-03 23-01-49](https://github.com/user-attachments/assets/814cb374-e13c-4c48-a0ac-49967958d542)
-
+![Screenshot from 2025-03-05 22-35-36](https://github.com/user-attachments/assets/03d1bc9e-5841-4e0d-8ad4-86302ab6f7f0)
 mkdir backupdir
  
 mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-![Screenshot from 2025-03-03 23-11-15](https://github.com/user-attachments/assets/abb58563-82db-4fef-9805-13e2b2c1b1f6)
-
+![Screenshot from 2025-03-05 22-38-48](https://github.com/user-attachments/assets/91f0d03f-a75e-4d96-b25a-c0c94b0b17b3)
 tar -xvf backup.tar
 ## OUTPUT
-![Screenshot from 2025-03-03 23-11-33](https://github.com/user-attachments/assets/210ab4c1-6238-4e51-89fb-a6defc2367f8)
-
+![Screenshot from 2025-03-05 22-39-47](https://github.com/user-attachments/assets/09ff8a18-744b-4ef2-94eb-abe44390769c)
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
-![Screenshot from 2025-03-03 23-12-01](https://github.com/user-attachments/assets/ea46d27a-6795-410b-a40c-181c635dfc7b)
 
 gunzip backup.tar.gz
 ## OUTPUT
