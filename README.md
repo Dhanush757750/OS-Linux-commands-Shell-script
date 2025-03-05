@@ -301,8 +301,7 @@ ls .gz
 
 gunzip backup.tar.gz
 ## OUTPUT
-![Screenshot from 2025-03-03 23-20-01](https://github.com/user-attachments/assets/074c15f2-0069-45b0-9f45-e5a9ee44476e)
- 
+
 # Shell Script
 ```
 echo '#!/bin/sh' > my-script.sh
